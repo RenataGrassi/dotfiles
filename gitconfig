@@ -11,11 +11,7 @@
 
 [core]
   pager = less -FRSX
-<<<<<<< HEAD
-	editor = subl -n -w  >/dev/null 2>&1
-=======
   editor = code --wait
->>>>>>> upstream/master
 
 [alias]
   co = checkout
@@ -57,15 +53,14 @@
 
 [branch "master"]
   mergeoptions = --no-edit
-<<<<<<< HEAD
+
 [user]
 	email = renagrassi@gmail.com
 	name = Renata Grassi
-=======
+
 
 [pull]
   rebase = false
 
 [init]
   defaultBranch = master
->>>>>>> upstream/master
